@@ -1,7 +1,7 @@
 // code your `hello` function here!
 function hello() {
     // your code
-    console.log("Hello World");
+    return "Hello World";
 } 
 
 exports.hello = hello;
