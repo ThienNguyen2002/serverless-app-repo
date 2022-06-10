@@ -1,11 +1,8 @@
 // start coding your function here!
-//a function that returns "It is late!"
-//if that time is at or after 10:00 pm,
-//and "It is still early!" if it is not.
+// Create a function running_late(date) in JavaScript that returns It is late! if the time is at or after 10:00 PM, and It is still early! if it is not.
 function running_late(date) {
-  var time =
-    date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
-  if (time >= "22:00:00") {
+  var time = date.getHours();
+  if (time >= 22) {
     return "It is late!";
   } else {
     return "It is still early!";
