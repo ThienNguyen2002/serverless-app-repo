@@ -3,7 +3,7 @@
 //if that time is at or after 10:00 pm,
 //and "It is still early!" if it is not. 
 function running_late(date) {
-  if (date >= "22:00") {
+  if (date >= "22:00:00") {
     return "It is late!";
   } else {
     return "It is still early!";
